@@ -10,4 +10,6 @@ void loop() {
   Serial.println("Done");
   delay(1000);
 
+  Serial.println("This is for you, GitHub :D");
+
 }
