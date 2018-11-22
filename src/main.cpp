@@ -4,7 +4,7 @@
 RCSwitch mySwitch = RCSwitch();
 
 // PINs
-int pir_sensor = 2;   //PWM pin 2
+int pir_sensor = 2;   //interrupt pin 2
 
 //433MHz codes
 int motion_code = 13100;
@@ -24,7 +24,8 @@ void setup() {
 }
 
 void loop() {
-
+  //nothing - just waiting for interrupt
+  //add powersafing routine, bare model (atmega328) --> able to get power from a battery 
 }
 
 void motion_detected(){
