@@ -37,5 +37,6 @@ void motion_detected(){
 }
 
 void motion_reset() {
-  mySwitch.send(reset_code, 24)
+  mySwitch.send(reset_code, 24);
+  Serial.println("trigger reset");
 }
